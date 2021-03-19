@@ -38,6 +38,7 @@ export default {
     border: 1px solid #a0b3d6; 
     width: 300px;
     font-size: 14px;
+    /* 超过最大高度时才出现滚动条 */
     max-height: 300px;
     overflow-y: auto;
  

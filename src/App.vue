@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <padding-test />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import PaddingTest from './components/PaddingTest.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    PaddingTest
   }
 }
 </script>
