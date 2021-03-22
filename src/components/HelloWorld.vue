@@ -1,5 +1,5 @@
 <template>
-  <div style="text-align: center;">  
+  <div style="text-align: center;">  +
     <div style="width:500px">
       <!-- div没有居中，是内容居中 -->      
       <textarea rows="20" cols="20"></textarea>
